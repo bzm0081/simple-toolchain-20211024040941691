@@ -1,3 +1,3 @@
 def _info(parms):
-    result = {'info': 'U can complete this assignment'}
+    result={'info' : 'i can complete this assignment'}
     return result
