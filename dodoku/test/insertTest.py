@@ -11,6 +11,6 @@ class InsertTest(TestCase):
         if expectedresult['grid'] == actualresult['grid'] and expectedresult['status'] == actualresult['status']and actualresult['integrity'] in expectedresult['integrity'] :
             self.assertEqual(True,True)
         else :
-            self.assertEqual(True,True)
+            self.assertEqual(False,True)
 
     
